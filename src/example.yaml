@@ -1,0 +1,18 @@
+---
+project name: 
+  feature: supported version
+  otherfeature: 
+    - 0.2
+    - comment
+  feature-x: 
+    ver: 0.3
+    comment: nice to have
+ejabberd: 
+  xep-0004: true
+  xep-0012: 
+    - 1.1
+    - mod_last
+  xep-0016: 
+    ver: 1.4
+    comment: mod_privacy
+  web-admin: true
