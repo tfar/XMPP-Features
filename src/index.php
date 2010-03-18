@@ -194,6 +194,37 @@ $data = array(
 		'xep-0260' => true,
 		'xep-0261' => true,
 		'xep-0262' => true,
+	),
+
+	'tigase' => array(
+		'tiger-as-logo' => true,
+		'xep-0004' => true,
+		'xep-0016' => true,
+		'xep-0030' => true,
+		'xep-0045' => true,
+		'xep-0049' => true,
+		'xep-0050' => true,
+		'xep-0054' => true,
+		'xep-0060' => true,
+		'xep-0077' => true,
+		'xep-0078' => true,
+		'xep-0085' => true,
+		'xep-0092' => true,
+		'xep-0114' => true,
+		'xep-0133' => true,
+		'xep-0138' => true,
+		'xep-0148' => true,
+		'xep-0153' => true,
+		'xep-0163' => true,
+		'xep-0175' => true,
+		'xep-0199' => true,
+		'xep-0203' => true,
+		'xep-0206' => true,
+		'xep-0220' => true,
+		'xep-0225' => true,
+		'xep-0237' => true,
+		'xep-0248' => true,
+		'xep-0253' => true,
 	)
 );
 
@@ -513,3 +544,4 @@ foreach($y as $col) {
 }
 echo "</tbody>\n";
 echo "</table>\n";
+
