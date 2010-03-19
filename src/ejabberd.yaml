@@ -1,0 +1,55 @@
+---
+web-admin: true
+xep-0004: true
+xep-0012: 
+  - 1.1
+  - mod_last
+xep-0016: 
+  - 1.4
+  - mod_privacy
+xep-0018: true
+xep-0022: true
+xep-0023: true
+xep-0025: true
+xep-0030: true
+xep-0039: true
+xep-0045: true
+xep-0049: true
+xep-0050: true
+xep-0054: true
+xep-0055: true
+xep-0059: true
+xep-0060: true
+xep-0065: true
+xep-0078: true
+xep-0082: true
+xep-0085: true
+xep-0086: true
+xep-0090: true
+xep-0091: true
+xep-0092: true
+xep-0114: true
+xep-0115: true
+xep-0124: true
+xep-0133: true
+xep-0138: true
+xep-0157: true
+xep-0158: true
+xep-0160: true
+xep-0163: true
+xep-0170: true
+xep-0175: true
+xep-0199: true
+xep-0202: true
+xep-0203: true
+xep-0206: true
+xep-0212: true
+xep-0216: true
+xep-0223: 
+  - true
+  - mod_register
+xep-0227: true
+xep-0237: true
+xep-0243: true
+xep-0248: true
+xep-0279: true
