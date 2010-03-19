@@ -552,6 +552,7 @@ foreach($data as $cols) {
 $y = array_unique($y);
 sort($y);
 
+echo "<h1>Probably inaccurate feature comparison table</h1>";
 echo "<table>\n";
 echo "<thead>\n";
 echo "<tr>\n";
