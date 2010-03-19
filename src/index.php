@@ -228,6 +228,7 @@ $data = array(
 	),
 
 	'openfire' => array(
+		'web-admin' => true,
 		'xep-0004' => true,
 		'xep-0012' => true,
 		'xep-0013' => true,
