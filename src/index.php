@@ -544,7 +544,9 @@ $y = array(
 	'xep-0274',
 	'xep-0275',
 	'xep-0276',
-	'xep-0277');
+	'xep-0277',
+	'xep-0280',
+);
 
 foreach($data as $cols) {
 	$y = array_merge($y, array_keys($cols));
