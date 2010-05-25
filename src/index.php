@@ -1,3 +1,10 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>PIFT</title>
+<meta charset="utf-8">
+</head>
+<body>
 <?php
 
 require_once 'spyc.php';
@@ -51,4 +58,7 @@ foreach($y as $col) {
 }
 echo "</tbody>\n";
 echo "</table>\n";
+?>
+</body>
+</html>
 
