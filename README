@@ -1,1 +1,3 @@
-Horribly ugly but working PHP generating a <table>
+Horribly ugly but working PHP generating a <table> from YAML source.
+
+Requires Spyc, <http://code.google.com/p/spyc/>
