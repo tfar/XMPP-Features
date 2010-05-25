@@ -1,4 +1,7 @@
 ---
+website:
+  - true
+  - "http://www.tigase.org/"
 tiger-as-logo: true
 xep-0004: true
 xep-0016: true

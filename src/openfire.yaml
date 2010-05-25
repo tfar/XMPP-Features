@@ -1,4 +1,7 @@
 ---
+website:
+  - true
+  - "http://www.igniterealtime.org/projects/openfire/"
 web-admin: true
 xep-0004: true
 xep-0012: true

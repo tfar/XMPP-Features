@@ -1,4 +1,7 @@
 ---
+website:
+  - true
+  - "http://www.ejabberd.im/"
 web-admin: true
 xep-0004: true
 xep-0012: 
