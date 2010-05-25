@@ -47,8 +47,9 @@ foreach($y as $col) {
 			list($ver, $comment) = $cell;
 			$cell = $ver;
 		}
-		$what = is_bool($cell)?($cell?'yes':'no'):(is_null($cell)?'N/A':'yes');
-		echo "<td bgcolor=\"{$colors[$what]}\"><strong>$what</strong> $comment</td>";
+		$color = $colors[is_bool($cell)?($cell?'yes':'no'):(is_null($cell)?'N/A':'yes')];
+		$cell = is_bool($cell)?($cell?'yes':'no'):(is_null($cell)?'N/A':$cell);
+		echo "<td bgcolor=\"$color\"><strong>$cell</strong> $comment</td>";
 	}
 	echo "</tr>\n";
 }
