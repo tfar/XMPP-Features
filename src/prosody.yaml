@@ -1,4 +1,3 @@
----
 website: [true, "http://prosody.im/"]
 xep-0004: true
 xep-0009: true
