@@ -2,10 +2,11 @@
 website:
   - true
   - "http://www.tigase.org/"
-tiger-as-logo: true
+rfc-3920: "2.0.0"
+rfc-3931: "2.3.0"
 xep-0004: true
 xep-0016: true
-xep-0030: true
+xep-0030: "2.0.0"
 xep-0045: true
 xep-0049: true
 xep-0050: true
