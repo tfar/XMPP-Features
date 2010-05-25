@@ -5,6 +5,7 @@
 <meta charset="utf-8">
 </head>
 <body>
+<h1>Probably inaccurate feature comparison table</h1>
 <?php
 
 require_once 'spyc.php';
@@ -16,10 +17,12 @@ if($files = glob('*.yaml')) {
 	}
 }
 else die("no sources");
+#echo '<pre>'; highlight_string(sprintf("<?php\n\n\$data = %s;\n", var_export($data,1))); exit;
 
 $x = array_keys($data);
-function int2xep($n){return sprintf('xep-%04d', $n);}
-$y = array_map('int2xep', range(1,280));
+#function int2xep($n){return sprintf('xep-%04d', $n);}
+#$y = array_map('int2xep', range(1,280));
+$y = array();
 
 foreach($data as $cols) {
 	$y = array_merge($y, array_keys($cols));
@@ -27,37 +30,29 @@ foreach($data as $cols) {
 $y = array_unique($y);
 sort($y);
 
-echo "<h1>Probably inaccurate feature comparison table</h1>";
-echo "<table>\n";
-echo "<thead>\n";
-echo "<tr>\n";
-echo "<th>feature\server</th>\n";
+echo "<table>\n<thead>\n<tr>\n<th>feature\server</th>\n";
 foreach($x as $row) {
 	echo "<th>$row</th>\n";
 }
-echo "</tr>\n";
-echo "</thead>\n";
-echo "<tbody>\n";
+echo "</tr>\n</thead>\n<tbody>\n";
+$colors = array('yes' => '#cfc', 'no' => '#fcc', 'N/A' => '#ffa');
 foreach($y as $col) {
-	echo "<tr>\n";
-	echo "<th>$col</th>\n";
+	echo "<tr>\n<th>$col</th>\n";
 	foreach($x as $row) {
-		if(isset($data[$row][$col])) {
+		$cell = false;
+		if(isset($data[$row][$col]))
 			$cell = $data[$row][$col];
-			$comment = "";
-			if(is_array($cell)) {
-				list($ver, $comment) = $cell;
-				$cell = $ver;
-			}
-			printf("<td bgcolor='green'>%s $comment</td>\n", (is_bool($cell)?($cell?"yes":"no"):$cell));
+		$comment = "";
+		if(is_array($cell)) {
+			list($ver, $comment) = $cell;
+			$cell = $ver;
 		}
-		else
-			echo "<td bgcolor='red'>no</td>\n";
+		$what = is_bool($cell)?($cell?'yes':'no'):(is_null($cell)?'N/A':'yes');
+		echo "<td bgcolor=\"{$colors[$what]}\"><strong>$what</strong> $comment</td>";
 	}
 	echo "</tr>\n";
 }
-echo "</tbody>\n";
-echo "</table>\n";
+echo "</tbody>\n</table>\n";
 ?>
 </body>
 </html>
