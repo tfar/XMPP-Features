@@ -1,5 +1,6 @@
 type: [true, "server"]
 website: [true, "http://prosody.im/"]
+web-admin: [false, "but telnet!"]
 rfc-3920: true
 rfc-3921: true
 xep-0004: true
