@@ -1,6 +1,9 @@
 website:
   - true
   - "http://www.ejabberd.im/"
+type: [true, "server"]
+rfc-3920: true
+rfc-3921: true
 web-admin: true
 xep-0004: true
 xep-0012: 

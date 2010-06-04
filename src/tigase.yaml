@@ -1,8 +1,9 @@
+type: [true, "server"]
 website:
   - true
   - "http://www.tigase.org/"
 rfc-3920: "2.0.0"
-rfc-3931: "2.3.0"
+rfc-3921: "2.3.0"
 xep-0004: true
 xep-0016: true
 xep-0030: "2.0.0"

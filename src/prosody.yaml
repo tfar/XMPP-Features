@@ -1,4 +1,7 @@
+type: [true, "server"]
 website: [true, "http://prosody.im/"]
+rfc-3920: true
+rfc-3921: true
 xep-0004: true
 xep-0009: true
 xep-0012: true
