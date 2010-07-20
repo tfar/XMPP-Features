@@ -1,0 +1,24 @@
+website:
+  - true
+  - "http://www.coversant.net/Product/SoapBoxServer.aspx"
+type: [true, "server"]
+rfc-3920: true
+rfc-3921: true
+xep-0020: true
+xep-0033: true
+xep-0045: true
+xep-0049: true
+xep-0050: true
+xep-0051: false
+xep-0060: true
+xep-0065: true
+xep-0077: true
+xep-0124: [true, "Partial"]
+xep-0133: [true, "Partial"]
+xep-0136: [true, "Partial"]
+xep-0138: true
+xep-0160: [true, "Partial"]
+xep-0163: false
+xep-0178: true
+xep-0193: [true, "Partial"]
+xep-0206: true
