@@ -1,6 +1,7 @@
 type: [true, "server"]
 website: [true, "http://prosody.im/"]
 web-admin: [false, "but telnet!"]
+adhoc-admin: true
 rfc-3920: true
 rfc-3921: true
 xep-0004: true
@@ -11,9 +12,9 @@ xep-0025: [false, "replaced by XEP-0124: BOSH"]
 xep-0030: true
 xep-0045: [0.3, "work still in progress"]
 xep-0049: 0.1
-xep-0050: [true, "Community module available"]
+xep-0050: true
 xep-0054: 0.1
-xep-0060: [false, "target 0.7"]
+xep-0060: [false, "target 0.9"]
 xep-0068: true
 xep-0077: 0.1
 xep-0078: 0.1
