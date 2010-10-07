@@ -4,74 +4,41 @@ web-admin: [false, "but telnet!"]
 rfc-3920: true
 rfc-3921: true
 xep-0004: true
-xep-0008: [null, "N/A, Clients only"]
 xep-0009: true
 xep-0012: true
 xep-0016: true
-xep-0020: [null, "Clients only"]
-xep-0022: [null, "Clients only"]
 xep-0025: [false, "replaced by XEP-0124: BOSH"]
 xep-0030: true
 xep-0045: 0.3
-xep-0047: [null, "Clients only"]
-xep-0048: [null, "Clients only"]
 xep-0049: 0.1
 xep-0050: [true, "Community module available"]
 xep-0054: 0.1
 xep-0060: [false, "target 0.9"]
 xep-0065: 0.7
-xep-0066: [null, "Clients only"]
 xep-0068: true
-xep-0071: [null, "Clients only"]
-xep-0072: [null, "Clients only"]
 xep-0077: 0.1
 xep-0078: 0.1
 xep-0080: true
 xep-0082: true
-xep-0083: [null, "Clients only"]
 xep-0084: true
-xep-0085: [null, "Clients only"]
 xep-0090: true
 xep-0091: true
 xep-0092: true
-xep-0096: [null, "Clients only"]
-xep-0100: [null, "Clients only"]
-xep-0106: [null, "Clients only"]
 xep-0107: true
 xep-0108: true
 xep-0114: 0.4
-xep-0115: [null, "Clients only"]
 xep-0118: true
 xep-0124: 0.2
-xep-0127: [null, "Clients only"]
 xep-0128: true
-xep-0131: [null, "Clients only"]
 xep-0133: [true, "Community module available"]
 xep-0138: true
-xep-0141: [null, "Clients only"]
-xep-0144: [null, "Clients only"]
-xep-0145: [null, "Clients only"]
-xep-0146: [null, "Clients only"]
-xep-0152: [null, "Clients only"]
 xep-0153: true
-xep-0155: [null, "Clients only"]
 xep-0156: [null, "DNS"]
 xep-0160: true
 xep-0163: 0.5
-xep-0166: [null, "Clients only"]
-xep-0167: [null, "Clients only"]
 xep-0170: true
-xep-0171: [null, "Clients only"]
-xep-0172: [null, "Clients only"]
-xep-0174: [null, "Clients only"]
 xep-0175: true
-xep-0176: [null, "Clients only"]
-xep-0177: [null, "Clients only"]
-xep-0179: [null, "Clients only"]
-xep-0180: [null, "Clients only"]
-xep-0181: [null, "Clients only"]
 xep-0182: true
-xep-0184: [null, "Clients only"]
 xep-0185: true
 xep-0189: true
 xep-0191: [true, "Community module available"]
@@ -81,29 +48,12 @@ xep-0196: true
 xep-0197: true
 xep-0198: [false, "target 0.8"]
 xep-0199: true
-xep-0201: [null, "Clients only"]
 xep-0202: true
 xep-0203: true
 xep-0206: 0.2
-xep-0209: [null, "Clients only"]
 xep-0216: true
 xep-0220: true
-xep-0224: [null, "Clients only"]
-xep-0226: [null, "Clients only"]
-xep-0231: [null, "Clients only"]
-xep-0234: [null, "Clients only"]
 xep-0237: 0.4
 xep-0243: true
-xep-0245: [null, "Clients only"]
-xep-0246: [null, "Clients only"]
-xep-0247: [null, "Clients only"]
-xep-0249: [null, "Clients only"]
-xep-0250: [null, "Clients only"]
-xep-0251: [null, "Clients only"]
-xep-0258: [null, "Clients only"]
-xep-0260: [null, "Clients only"]
-xep-0261: [null, "Clients only"]
-xep-0262: [null, "Clients only"]
 xep-0273: [true, "Community module available"]
-xep-0277: [null, "Clients only"]
 xep-0279: [true, "Community module available"]

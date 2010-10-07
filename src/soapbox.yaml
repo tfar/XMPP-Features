@@ -4,7 +4,6 @@ website:
 type: [true, "server"]
 rfc-3920: true
 rfc-3921: true
-xep-0020: true
 xep-0033: true
 xep-0045: true
 xep-0049: true

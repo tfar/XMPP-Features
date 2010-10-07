@@ -13,7 +13,6 @@ xep-0016:
   - 1.4
   - mod_privacy
 xep-0018: true
-xep-0022: true
 xep-0023: true
 xep-0025: true
 xep-0030: true
@@ -28,13 +27,11 @@ xep-0060: true
 xep-0065: true
 xep-0078: true
 xep-0082: true
-xep-0085: true
 xep-0086: true
 xep-0090: true
 xep-0091: true
 xep-0092: true
 xep-0114: true
-xep-0115: true
 xep-0124: true
 xep-0133: true
 xep-0138: true
