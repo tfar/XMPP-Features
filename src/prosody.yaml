@@ -7,7 +7,7 @@ xep-0004: true
 xep-0009: true
 xep-0012: true
 xep-0016: true
-xep-0025: [false, "replaced by XEP-0124: BOSH"]
+xep-0025: [null, "replaced by XEP-0124: BOSH"]
 xep-0030: true
 xep-0045: 0.3
 xep-0049: 0.1
