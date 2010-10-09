@@ -31,6 +31,7 @@ xep-0118: true
 xep-0124: 0.2
 xep-0128: true
 xep-0133: [true, "Community module available"]
+xep-0136: [true, "Community module available"]
 xep-0138: true
 xep-0153: true
 xep-0156: [null, "DNS"]
