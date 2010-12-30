@@ -1,6 +1,7 @@
 type: [true, "server"]
 website: [true, "http://prosody.im/"]
-web-admin: [false, "but telnet!"]
+web-admin: [true, "Community module available"]
+telnet-admin: true
 rfc-3920: true
 rfc-3921: true
 xep-0004: true
@@ -13,7 +14,7 @@ xep-0045: 0.3
 xep-0049: 0.1
 xep-0050: [true, "Community module available"]
 xep-0054: 0.1
-xep-0060: [false, "target 0.9"]
+xep-0060: [true, "in trunk, target 0.9"]
 xep-0065: 0.7
 xep-0068: true
 xep-0077: 0.1
