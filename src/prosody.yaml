@@ -2,60 +2,153 @@ type: [true, "server"]
 website: [true, "http://prosody.im/"]
 web-admin: [true, "Community module available"]
 telnet-admin: true
+IPv6: [true, "in trunk, targeting 0.9"]
 rfc-3920: true
 rfc-3921: true
+rfc-6120: true
+rfc-6121: true
 xep-0004: true
+xep-0008: null
 xep-0009: true
 xep-0012: true
+xep-0013: false
 xep-0016: true
-xep-0025: [null, "replaced by XEP-0124: BOSH"]
+xep-0020: null
+xep-0022: null
+xep-0025: [false, "replaced by XEP-0124: BOSH"]
 xep-0030: true
+xep-0033: [true, "Community module available (partial implementation)"]
+xep-0039: false
 xep-0045: 0.3
 xep-0049: 0.1
-xep-0050: [true, "Community module available"]
+xep-0050: true
 xep-0054: 0.1
+xep-0055: false
+xep-0059: false
 xep-0060: [true, "in trunk, target 0.9"]
 xep-0065: 0.7
+xep-0066: null
 xep-0068: true
+xep-0070: false
+xep-0071: null
+xep-0072: null
+xep-0073: true
 xep-0077: 0.1
 xep-0078: 0.1
+xep-0079: false
 xep-0080: true
 xep-0082: true
+xep-0083: null
 xep-0084: true
+xep-0085: null
 xep-0090: true
 xep-0091: true
 xep-0092: true
+xep-0096: null
+xep-0100: null
+xep-0106: true
 xep-0107: true
 xep-0108: true
 xep-0114: 0.4
-xep-0118: true
+xep-0115: true
+xep-0118: [true, "(PEP)"]
+xep-0122: false
 xep-0124: 0.2
+xep-0126: false
+xep-0127: null
 xep-0128: true
+xep-0130: false
+xep-0131: null
 xep-0133: [true, "Community module available"]
 xep-0136: [true, "Community module available"]
 xep-0138: true
+xep-0141: null
+xep-0144: null
+xep-0145: null
+xep-0146: null
+xep-0152: null
 xep-0153: true
-xep-0156: [null, "DNS"]
+xep-0154: false
+xep-0155: null
+xep-0157: false
+xep-0158: false
+xep-0159: false
 xep-0160: true
+xep-0161: false
 xep-0163: 0.5
+xep-0166: null
+xep-0167: null
+xep-0168: false
 xep-0170: true
+xep-0171: null
+xep-0172: null
+xep-0174: null
 xep-0175: true
+xep-0176: null
+xep-0177: null
+xep-0178: [true, "target 0.9"]
+xep-0179: null
+xep-0180: null
+xep-0181: null
 xep-0182: true
+xep-0184: null
 xep-0185: true
+xep-0186: false
 xep-0189: true
+xep-0190: false
 xep-0191: [true, "Community module available"]
 xep-0194: true
 xep-0195: true
 xep-0196: true
 xep-0197: true
-xep-0198: [false, "target 0.8"]
+xep-0198: [true, "Community module available"]
 xep-0199: true
+xep-0201: null
 xep-0202: true
 xep-0203: true
+xep-0205: false
 xep-0206: 0.2
+xep-0209: false
+xep-0214: false
+xep-0215: false
 xep-0216: true
 xep-0220: true
+xep-0221: false
+xep-0224: null
+xep-0225: false
+xep-0226: null
+xep-0227: [true, "Supported by the migrator"]
+xep-0230: false
+xep-0231: null
+xep-0232: false
+xep-0233: false
+xep-0234: null
+xep-0235: false
+xep-0236: false
 xep-0237: 0.4
+xep-0241: false
 xep-0243: true
+xep-0245: null
+xep-0246: null
+xep-0247: null
+xep-0248: false
+xep-0249: null
+xep-0250: null
+xep-0251: null
+xep-0252: false
+xep-0253: false
+xep-0254: false
+xep-0255: false
+xep-0256: false
+xep-0257: false
+xep-0258: [true, "Community module available"]
+xep-0259: false
+xep-0260: null
+xep-0261: null
+xep-0262: null
 xep-0273: [true, "Community module available"]
+xep-0278: [true, "GSoC 2011"]
 xep-0279: [true, "Community module available"]
+xep-0280: [true, "Community module available"]
+xep-0309: [true, "Community module available"]
+xep-0313: [true, "Community module available"]
