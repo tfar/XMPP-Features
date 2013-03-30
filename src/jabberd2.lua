@@ -1,4 +1,5 @@
 type = "server"
+website = "jabberd2.org"
 xep0012 = true
 xep0016 = true
 xep0022 = true
