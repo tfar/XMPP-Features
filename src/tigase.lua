@@ -1,10 +1,10 @@
 type = "server"
 website = "http://www.tigase.org/"
-rfc3920 = "2.0.0"
-rfc3921 = "2.3.0"
+rfc3920 = ">=2.0.0"
+rfc3921 = ">=2.3.0"
 xep0004 = true
 xep0016 = true
-xep0030 = "2.0.0"
+xep0030 = ">=2.0.0"
 xep0045 = true
 xep0049 = true
 xep0050 = true
